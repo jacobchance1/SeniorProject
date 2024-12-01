@@ -1,0 +1,31 @@
+---
+MainSourceFile:  'C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/.autopilot/db/flatten.pp.0.cc'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        flatten.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc'
+        Offset:          14706
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_2:  '
+    FileOffset:      16
+    FilePath:        flatten.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc'
+        Offset:          14759
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_17_3:  '
+    FileOffset:      17
+    FilePath:        flatten.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc'
+        Offset:          14809
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_17_3: '
+...

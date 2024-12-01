@@ -1,0 +1,326 @@
+
+
+================================================================
+== Vitis HLS Report for 'max_pool1_layer'
+================================================================
+* Date:           Sun Dec  1 17:09:31 2024
+
+* Version:        2023.1.1 (Build 3869133 on Jun 15 2023)
+* Project:        SP_CNN
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-2-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  4.538 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     2422|     2422|  24.220 us|  24.220 us|  2422|  2422|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                  |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name    |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- loop_over_maps  |     2420|     2420|      1210|          -|          -|     2|        no|
+        +------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 22
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 22 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 17 
+17 --> 18 
+18 --> 19 
+19 --> 20 
+20 --> 21 
+21 --> 2 
+22 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.42>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%f = alloca i32 1"   --->   Operation 23 'alloca' 'f' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_features, void @empty_22, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 2, i32 2, i32 16, i32 16, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 24 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %in_features, void @empty_22, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 2, i32 2, i32 16, i32 16, void @empty_26, void @empty_26, i32 4294967295, i32 0"   --->   Operation 25 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%readreq_ln9 = readreq void @_ssdm_op_ReadReq, i32 %in_features, i32 2" [pool.cc:9]   --->   Operation 26 'readreq' 'readreq_ln9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%writereq_ln10 = writereq void @_ssdm_op_WriteReq, i32 %out_features, i32 2" [pool.cc:10]   --->   Operation 27 'writereq' 'writereq_ln10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.42ns)   --->   "%store_ln12 = store i5 0, i5 %f" [pool.cc:12]   --->   Operation 28 'store' 'store_ln12' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%br_ln12 = br void %loop_over_rows" [pool.cc:12]   --->   Operation 29 'br' 'br_ln12' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 2.80>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%f_2 = load i5 %f" [pool.cc:12]   --->   Operation 30 'load' 'f_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (0.78ns)   --->   "%icmp_ln12 = icmp_ult  i5 %f_2, i5 20" [pool.cc:12]   --->   Operation 31 'icmp' 'icmp_ln12' <Predicate = true> <Delay = 0.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%br_ln12 = br i1 %icmp_ln12, void %for.end57, void %loop_over_rows.split" [pool.cc:12]   --->   Operation 32 'br' 'br_ln12' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 33 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows, i5 %f_2, i32 %in_features, i5 %f_2, i32 %out_features" [pool.cc:12]   --->   Operation 33 'call' 'call_ln12' <Predicate = (icmp_ln12)> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 34 [1/1] (0.78ns)   --->   "%add_ln12_8 = add i5 %f_2, i5 10" [pool.cc:12]   --->   Operation 34 'add' 'add_ln12_8' <Predicate = (icmp_ln12)> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 35 [1/1] (0.42ns)   --->   "%store_ln12 = store i5 %add_ln12_8, i5 %f" [pool.cc:12]   --->   Operation 35 'store' 'store_ln12' <Predicate = (icmp_ln12)> <Delay = 0.42>
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 36 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows, i5 %f_2, i32 %in_features, i5 %f_2, i32 %out_features" [pool.cc:12]   --->   Operation 36 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 2.01>
+ST_4 : Operation 37 [1/1] (0.00ns)   --->   "%trunc_ln12 = trunc i5 %f_2" [pool.cc:12]   --->   Operation 37 'trunc' 'trunc_ln12' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 38 [1/1] (0.00ns)   --->   "%or_ln12 = or i4 %trunc_ln12, i4 1" [pool.cc:12]   --->   Operation 38 'or' 'or_ln12' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 39 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows20, i4 %or_ln12, i32 %in_features, i4 %or_ln12, i32 %out_features" [pool.cc:12]   --->   Operation 39 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 40 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows20, i4 %or_ln12, i32 %in_features, i4 %or_ln12, i32 %out_features" [pool.cc:12]   --->   Operation 40 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 2.81>
+ST_6 : Operation 41 [1/1] (0.79ns)   --->   "%add_ln12 = add i4 %trunc_ln12, i4 2" [pool.cc:12]   --->   Operation 41 'add' 'add_ln12' <Predicate = true> <Delay = 0.79> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 42 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows21, i4 %add_ln12, i32 %in_features, i4 %add_ln12, i32 %out_features" [pool.cc:12]   --->   Operation 42 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 7 <SV = 6> <Delay = 0.00>
+ST_7 : Operation 43 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows21, i4 %add_ln12, i32 %in_features, i4 %add_ln12, i32 %out_features" [pool.cc:12]   --->   Operation 43 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 8 <SV = 7> <Delay = 2.81>
+ST_8 : Operation 44 [1/1] (0.79ns)   --->   "%add_ln12_1 = add i4 %trunc_ln12, i4 3" [pool.cc:12]   --->   Operation 44 'add' 'add_ln12_1' <Predicate = true> <Delay = 0.79> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 45 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows22, i4 %add_ln12_1, i32 %in_features, i4 %add_ln12_1, i32 %out_features" [pool.cc:12]   --->   Operation 45 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 9 <SV = 8> <Delay = 0.00>
+ST_9 : Operation 46 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows22, i4 %add_ln12_1, i32 %in_features, i4 %add_ln12_1, i32 %out_features" [pool.cc:12]   --->   Operation 46 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 10 <SV = 9> <Delay = 2.81>
+ST_10 : Operation 47 [1/1] (0.79ns)   --->   "%add_ln12_2 = add i4 %trunc_ln12, i4 4" [pool.cc:12]   --->   Operation 47 'add' 'add_ln12_2' <Predicate = true> <Delay = 0.79> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 48 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows23, i4 %add_ln12_2, i32 %in_features, i4 %add_ln12_2, i32 %out_features" [pool.cc:12]   --->   Operation 48 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 11 <SV = 10> <Delay = 0.00>
+ST_11 : Operation 49 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows23, i4 %add_ln12_2, i32 %in_features, i4 %add_ln12_2, i32 %out_features" [pool.cc:12]   --->   Operation 49 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 12 <SV = 11> <Delay = 2.81>
+ST_12 : Operation 50 [1/1] (0.79ns)   --->   "%add_ln12_3 = add i4 %trunc_ln12, i4 5" [pool.cc:12]   --->   Operation 50 'add' 'add_ln12_3' <Predicate = true> <Delay = 0.79> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 51 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows24, i4 %add_ln12_3, i32 %in_features, i4 %add_ln12_3, i32 %out_features" [pool.cc:12]   --->   Operation 51 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 13 <SV = 12> <Delay = 0.00>
+ST_13 : Operation 52 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows24, i4 %add_ln12_3, i32 %in_features, i4 %add_ln12_3, i32 %out_features" [pool.cc:12]   --->   Operation 52 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 14 <SV = 13> <Delay = 2.80>
+ST_14 : Operation 53 [1/1] (0.78ns)   --->   "%add_ln12_4 = add i5 %f_2, i5 6" [pool.cc:12]   --->   Operation 53 'add' 'add_ln12_4' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 54 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows25, i5 %add_ln12_4, i32 %in_features, i5 %add_ln12_4, i32 %out_features" [pool.cc:12]   --->   Operation 54 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 15 <SV = 14> <Delay = 0.00>
+ST_15 : Operation 55 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows25, i5 %add_ln12_4, i32 %in_features, i5 %add_ln12_4, i32 %out_features" [pool.cc:12]   --->   Operation 55 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 16 <SV = 15> <Delay = 2.80>
+ST_16 : Operation 56 [1/1] (0.78ns)   --->   "%add_ln12_5 = add i5 %f_2, i5 7" [pool.cc:12]   --->   Operation 56 'add' 'add_ln12_5' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 57 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows26, i5 %add_ln12_5, i32 %in_features, i5 %add_ln12_5, i32 %out_features" [pool.cc:12]   --->   Operation 57 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 17 <SV = 16> <Delay = 0.00>
+ST_17 : Operation 58 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows26, i5 %add_ln12_5, i32 %in_features, i5 %add_ln12_5, i32 %out_features" [pool.cc:12]   --->   Operation 58 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 18 <SV = 17> <Delay = 2.80>
+ST_18 : Operation 59 [1/1] (0.78ns)   --->   "%add_ln12_6 = add i5 %f_2, i5 8" [pool.cc:12]   --->   Operation 59 'add' 'add_ln12_6' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_18 : Operation 60 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows27, i5 %add_ln12_6, i32 %in_features, i5 %add_ln12_6, i32 %out_features" [pool.cc:12]   --->   Operation 60 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 19 <SV = 18> <Delay = 0.00>
+ST_19 : Operation 61 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows27, i5 %add_ln12_6, i32 %in_features, i5 %add_ln12_6, i32 %out_features" [pool.cc:12]   --->   Operation 61 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 20 <SV = 19> <Delay = 2.80>
+ST_20 : Operation 62 [1/1] (0.78ns)   --->   "%add_ln12_7 = add i5 %f_2, i5 9" [pool.cc:12]   --->   Operation 62 'add' 'add_ln12_7' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_20 : Operation 63 [2/2] (2.01ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows28, i5 %add_ln12_7, i32 %in_features, i5 %add_ln12_7, i32 %out_features" [pool.cc:12]   --->   Operation 63 'call' 'call_ln12' <Predicate = true> <Delay = 2.01> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 21 <SV = 20> <Delay = 0.00>
+ST_21 : Operation 64 [1/1] (0.00ns)   --->   "%speclooptripcount_ln12 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 2, i64 2, i64 2" [pool.cc:12]   --->   Operation 64 'speclooptripcount' 'speclooptripcount_ln12' <Predicate = true> <Delay = 0.00>
+ST_21 : Operation 65 [1/1] (0.00ns)   --->   "%specloopname_ln12 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [pool.cc:12]   --->   Operation 65 'specloopname' 'specloopname_ln12' <Predicate = true> <Delay = 0.00>
+ST_21 : Operation 66 [1/2] (0.00ns)   --->   "%call_ln12 = call void @max_pool1_layer_Pipeline_loop_over_rows28, i5 %add_ln12_7, i32 %in_features, i5 %add_ln12_7, i32 %out_features" [pool.cc:12]   --->   Operation 66 'call' 'call_ln12' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_21 : Operation 67 [1/1] (0.00ns)   --->   "%br_ln12 = br void %loop_over_rows" [pool.cc:12]   --->   Operation 67 'br' 'br_ln12' <Predicate = true> <Delay = 0.00>
+
+State 22 <SV = 21> <Delay = 0.00>
+ST_22 : Operation 68 [1/1] (0.00ns)   --->   "%write_ln35 = write void @_ssdm_op_Write, i32 %out_features, i32 2" [pool.cc:35]   --->   Operation 68 'write' 'write_ln35' <Predicate = true> <Delay = 0.00>
+ST_22 : Operation 69 [1/1] (0.00ns)   --->   "%read_ln35 = read void @_ssdm_op_Read, i32 %in_features, i32 2" [pool.cc:35]   --->   Operation 69 'read' 'read_ln35' <Predicate = true> <Delay = 0.00>
+ST_22 : Operation 70 [1/1] (0.00ns)   --->   "%ret_ln35 = ret" [pool.cc:35]   --->   Operation 70 'ret' 'ret_ln35' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 0.427ns
+The critical path consists of the following:
+	'alloca' operation ('f') [3]  (0.000 ns)
+	'store' operation ('store_ln12', pool.cc:12) of constant 0 on local variable 'f' [8]  (0.427 ns)
+
+ <State 2>: 2.804ns
+The critical path consists of the following:
+	'load' operation ('f', pool.cc:12) on local variable 'f' [11]  (0.000 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows' [18]  (2.015 ns)
+	blocking operation 0.789 ns on control path)
+
+ <State 3>: 0.000ns
+The critical path consists of the following:
+
+ <State 4>: 2.015ns
+The critical path consists of the following:
+	'or' operation ('or_ln12', pool.cc:12) [19]  (0.000 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows20' [20]  (2.015 ns)
+
+ <State 5>: 0.000ns
+The critical path consists of the following:
+
+ <State 6>: 2.812ns
+The critical path consists of the following:
+	'add' operation ('add_ln12', pool.cc:12) [21]  (0.797 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows21' [22]  (2.015 ns)
+
+ <State 7>: 0.000ns
+The critical path consists of the following:
+
+ <State 8>: 2.812ns
+The critical path consists of the following:
+	'add' operation ('add_ln12_1', pool.cc:12) [23]  (0.797 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows22' [24]  (2.015 ns)
+
+ <State 9>: 0.000ns
+The critical path consists of the following:
+
+ <State 10>: 2.812ns
+The critical path consists of the following:
+	'add' operation ('add_ln12_2', pool.cc:12) [25]  (0.797 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows23' [26]  (2.015 ns)
+
+ <State 11>: 0.000ns
+The critical path consists of the following:
+
+ <State 12>: 2.812ns
+The critical path consists of the following:
+	'add' operation ('add_ln12_3', pool.cc:12) [27]  (0.797 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows24' [28]  (2.015 ns)
+
+ <State 13>: 0.000ns
+The critical path consists of the following:
+
+ <State 14>: 2.804ns
+The critical path consists of the following:
+	'add' operation ('add_ln12_4', pool.cc:12) [29]  (0.789 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows25' [30]  (2.015 ns)
+
+ <State 15>: 0.000ns
+The critical path consists of the following:
+
+ <State 16>: 2.804ns
+The critical path consists of the following:
+	'add' operation ('add_ln12_5', pool.cc:12) [31]  (0.789 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows26' [32]  (2.015 ns)
+
+ <State 17>: 0.000ns
+The critical path consists of the following:
+
+ <State 18>: 2.804ns
+The critical path consists of the following:
+	'add' operation ('add_ln12_6', pool.cc:12) [33]  (0.789 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows27' [34]  (2.015 ns)
+
+ <State 19>: 0.000ns
+The critical path consists of the following:
+
+ <State 20>: 2.804ns
+The critical path consists of the following:
+	'add' operation ('add_ln12_7', pool.cc:12) [35]  (0.789 ns)
+	'call' operation ('call_ln12', pool.cc:12) to 'max_pool1_layer_Pipeline_loop_over_rows28' [36]  (2.015 ns)
+
+ <State 21>: 0.000ns
+The critical path consists of the following:
+
+ <State 22>: 0.000ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

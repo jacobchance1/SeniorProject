@@ -1,0 +1,58 @@
+---
+MainSourceFile:  'C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/.autopilot/db/conv.pp.0.cc'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        conv.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc'
+        Offset:          116154
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_51_2:  '
+    FileOffset:      51
+    FilePath:        conv.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc'
+        Offset:          116218
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_51_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_52_3:  '
+    FileOffset:      52
+    FilePath:        conv.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc'
+        Offset:          116256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_52_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_54_4:  '
+    FileOffset:      54
+    FilePath:        conv.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc'
+        Offset:          116312
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_54_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_55_5:  '
+    FileOffset:      55
+    FilePath:        conv.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc'
+        Offset:          116351
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_55_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_56_6:  '
+    FileOffset:      56
+    FilePath:        conv.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc'
+        Offset:          116391
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_56_6: '
+...

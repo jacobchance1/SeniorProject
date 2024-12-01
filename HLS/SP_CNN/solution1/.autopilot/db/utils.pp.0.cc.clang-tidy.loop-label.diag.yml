@@ -1,0 +1,22 @@
+---
+MainSourceFile:  'C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/.autopilot/db/utils.pp.0.cc'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_8_1:  '
+    FileOffset:      8
+    FilePath:        utils.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc'
+        Offset:          14687
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_8_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_9_2:  '
+    FileOffset:      9
+    FilePath:        utils.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc'
+        Offset:          14723
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_9_2: '
+...

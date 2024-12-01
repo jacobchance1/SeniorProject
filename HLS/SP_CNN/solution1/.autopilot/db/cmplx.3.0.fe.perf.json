@@ -1,0 +1,140 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "6 8",
+    "file": "cnn.cc",
+    "fileloc": 6,
+    "instructions": 13,
+    "name": "cnn",
+    "total_instructions": 35074
+  },
+  "1": {
+    "basicblocks": 23,
+    "calls": "",
+    "file": "pool.cc",
+    "fileloc": 5,
+    "instructions": 2329,
+    "loads": {
+      "L": 560
+    },
+    "name": "max_pool1_layer",
+    "stores": {
+      "L": 140
+    },
+    "total_instructions": 2329
+  },
+  "2": {
+    "basicblocks": 43,
+    "calls": "",
+    "file": "pool.cc",
+    "fileloc": 37,
+    "instructions": 319,
+    "loads": {
+      "L": 40
+    },
+    "name": "max_pool2_layer",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 319
+  },
+  "3": {
+    "basicblocks": 32,
+    "calls": "",
+    "file": "dense.cc",
+    "fileloc": 4,
+    "instructions": 201,
+    "loads": {
+      "G": 10,
+      "L": 13
+    },
+    "name": "dense_layer",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 201
+  },
+  "4": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "utils.cc",
+    "fileloc": 3,
+    "instructions": 22,
+    "loads": {
+      "L": 1
+    },
+    "name": "normalization_and_padding",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 22
+  },
+  "5": {
+    "basicblocks": 43,
+    "calls": "",
+    "file": "conv.cc",
+    "fileloc": 41,
+    "instructions": 30279,
+    "loads": {
+      "G": 5010,
+      "L": 5010
+    },
+    "name": "convolution_layer2",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 30279
+  },
+  "6": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "cnn.cc",
+    "fileloc": 53,
+    "instructions": 21,
+    "name": "write_to_stream",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 21
+  },
+  "7": {
+    "basicblocks": 43,
+    "calls": "",
+    "file": "conv.cc",
+    "fileloc": 3,
+    "instructions": 1769,
+    "loads": {
+      "G": 260,
+      "L": 250
+    },
+    "name": "convolution_layer1",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 1769
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "4 7 1 5 2 9 3",
+    "file": "cnn.cc",
+    "fileloc": 31,
+    "instructions": 26,
+    "name": "forward",
+    "total_instructions": 35040
+  },
+  "9": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "flatten.cc",
+    "fileloc": 3,
+    "instructions": 95,
+    "loads": {
+      "L": 5
+    },
+    "name": "flatten_layer",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 95
+  }
+}

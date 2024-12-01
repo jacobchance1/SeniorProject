@@ -1,0 +1,180 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/csynth.tcl:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=cnn" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=cnn" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cnn.cc:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=image depth=784 offset=slave bundle=INPUT" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cnn.cc:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=prediction depth=10 offset=slave bundle=OUTPUT" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cnn.cc:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="cnn" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cnn.cc:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="cnn" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cnn.cc:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="forward" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="cnn.cc:58:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_to_stream" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="conv.cc:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convolution_layer1" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=10" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="conv.cc:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convolution_layer1" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="conv.cc:24:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convolution_layer1" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="conv.cc:50:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convolution_layer2" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=10" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="conv.cc:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convolution_layer2" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="conv.cc:57:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="convolution_layer2" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-953" msg_severity="WARNING" msg_loc="../Headers/conv_weights.cc:5:9" msg_body="#pragma once in main file">
+        <args ClangWarningOption="pragma-once-outside-header"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dense.cc:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dense_layer" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-953" msg_severity="WARNING" msg_loc="../Headers/dense_weights.cc:5:9" msg_body="#pragma once in main file">
+        <args ClangWarningOption="pragma-once-outside-header"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="flatten.cc:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="flatten_layer" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="flatten.cc:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="flatten_layer" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="pool.cc:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="max_pool1_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=10" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="pool.cc:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="max_pool1_layer" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="pool.cc:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="max_pool1_layer" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="pool.cc:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="max_pool1_layer" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="pool.cc:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="max_pool2_layer" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=10" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="pool.cc:50:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="max_pool2_layer" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="pool.cc:52:35" msg_body="Loop 'loop_over_pr' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="loop_over_pr"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="pool.cc:53:38" msg_body="Loop 'loop_over_pc' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="loop_over_pc"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="conv.cc:54:19" msg_body="Loop 'VITIS_LOOP_54_4' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_54_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="conv.cc:55:24" msg_body="Loop 'VITIS_LOOP_55_5' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_55_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="conv.cc:56:25" msg_body="Loop 'VITIS_LOOP_56_6' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_56_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="pool.cc:16:21" msg_body="Loop 'loop_over_columns' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="loop_over_columns"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="pool.cc:19:34" msg_body="Loop 'loop_over_pr' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="loop_over_pr"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="pool.cc:20:39" msg_body="Loop 'loop_over_pc' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="loop_over_pc"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="conv.cc:22:11" msg_body="Loop 'kr_loop' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="kr_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="conv.cc:23:34" msg_body="Loop 'kc_loop' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="kc_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="dense.cc:5:0" msg_body="Unrolling loop 'VITIS_LOOP_9_1' (dense.cc:9:21) in function 'dense_layer' completely with a factor of 10">
+        <args Factor="10" LoopLoc="dense.cc:9:21" LoopName="VITIS_LOOP_9_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="flatten.cc:5:0" msg_body="Unrolling loop 'VITIS_LOOP_14_1' (flatten.cc:14:30) in function 'flatten_layer' completely with a factor of 5">
+        <args Factor="5" LoopLoc="flatten.cc:14:30" LoopName="VITIS_LOOP_14_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="pool.cc:39:0" msg_body="Unrolling loop 'loop_over_map' (pool.cc:45:24) in function 'max_pool2_layer' partially with a factor of 10">
+        <args Factor="10" LoopLoc="pool.cc:45:24" LoopName="loop_over_map"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="pool.cc:39:0" msg_body="Unrolling loop 'loop_over_pr' (pool.cc:52:35) in function 'max_pool2_layer' completely with a factor of 2">
+        <args Factor="2" LoopLoc="pool.cc:52:35" LoopName="loop_over_pr"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="pool.cc:39:0" msg_body="Unrolling loop 'loop_over_pc' (pool.cc:53:38) in function 'max_pool2_layer' completely with a factor of 2">
+        <args Factor="2" LoopLoc="pool.cc:53:38" LoopName="loop_over_pc"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="conv.cc:43:0" msg_body="Unrolling loop 'VITIS_LOOP_49_1' (conv.cc:49:20) in function 'convolution_layer2' partially with a factor of 10">
+        <args Factor="10" LoopLoc="conv.cc:49:20" LoopName="VITIS_LOOP_49_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="conv.cc:43:0" msg_body="Unrolling loop 'VITIS_LOOP_54_4' (conv.cc:54:19) in function 'convolution_layer2' completely with a factor of 5">
+        <args Factor="5" LoopLoc="conv.cc:54:19" LoopName="VITIS_LOOP_54_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="conv.cc:43:0" msg_body="Unrolling loop 'VITIS_LOOP_55_5' (conv.cc:55:24) in function 'convolution_layer2' completely with a factor of 5">
+        <args Factor="5" LoopLoc="conv.cc:55:24" LoopName="VITIS_LOOP_55_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="conv.cc:43:0" msg_body="Unrolling loop 'VITIS_LOOP_56_6' (conv.cc:56:25) in function 'convolution_layer2' completely with a factor of 20">
+        <args Factor="20" LoopLoc="conv.cc:56:25" LoopName="VITIS_LOOP_56_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="conv.cc:43:0" msg_body="Pipeline directive for loop 'VITIS_LOOP_56_6' (conv.cc:56:25) in function 'convolution_layer2' has been removed because the loop is unrolled completely">
+        <args LoopLoc="conv.cc:56:25" LoopName="VITIS_LOOP_56_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="pool.cc:7:0" msg_body="Unrolling loop 'loop_over_maps' (pool.cc:12:25) in function 'max_pool1_layer' partially with a factor of 10">
+        <args Factor="10" LoopLoc="pool.cc:12:25" LoopName="loop_over_maps"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="pool.cc:7:0" msg_body="Unrolling loop 'loop_over_columns' (pool.cc:16:21) in function 'max_pool1_layer' completely with a factor of 14">
+        <args Factor="14" LoopLoc="pool.cc:16:21" LoopName="loop_over_columns"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="pool.cc:7:0" msg_body="Pipeline directive for loop 'loop_over_columns' (pool.cc:16:21) in function 'max_pool1_layer' has been removed because the loop is unrolled completely">
+        <args LoopLoc="pool.cc:16:21" LoopName="loop_over_columns"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="pool.cc:7:0" msg_body="Unrolling loop 'loop_over_pr' (pool.cc:19:34) in function 'max_pool1_layer' completely with a factor of 2">
+        <args Factor="2" LoopLoc="pool.cc:19:34" LoopName="loop_over_pr"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="pool.cc:7:0" msg_body="Unrolling loop 'loop_over_pc' (pool.cc:20:39) in function 'max_pool1_layer' completely with a factor of 2">
+        <args Factor="2" LoopLoc="pool.cc:20:39" LoopName="loop_over_pc"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="pool.cc:7:0" msg_body="Pipeline directive for loop 'loop_over_pc' (pool.cc:20:39) in function 'max_pool1_layer' has been removed because the loop is unrolled completely">
+        <args LoopLoc="pool.cc:20:39" LoopName="loop_over_pc"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-188" msg_severity="INFO" msg_loc="conv.cc:8:0" msg_body="Unrolling loop 'filter_loop' (conv.cc:15:22) in function 'convolution_layer1' partially with a factor of 10">
+        <args Factor="10" LoopLoc="conv.cc:15:22" LoopName="filter_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="conv.cc:8:0" msg_body="Unrolling loop 'kr_loop' (conv.cc:22:11) in function 'convolution_layer1' completely with a factor of 5">
+        <args Factor="5" LoopLoc="conv.cc:22:11" LoopName="kr_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="conv.cc:8:0" msg_body="Unrolling loop 'kc_loop' (conv.cc:23:34) in function 'convolution_layer1' completely with a factor of 5">
+        <args Factor="5" LoopLoc="conv.cc:23:34" LoopName="kc_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="conv.cc:8:0" msg_body="Pipeline directive for loop 'kc_loop' (conv.cc:23:34) in function 'convolution_layer1' has been removed because the loop is unrolled completely">
+        <args LoopLoc="conv.cc:23:34" LoopName="kc_loop"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="conv.cc:8:0" msg_body="Inlining function 'ReLU(float)' into 'convolution_layer1(hls::stream_of_blocks&lt;float [32][32], 2&gt;&amp;, hls::stream_of_blocks&lt;float [28][28][20], 2&gt;&amp;)'">
+        <args Callee="ReLU(float)" Callee-DebugLoc="File activation.cc Line 5 Column 0" Caller="convolution_layer1(hls::stream_of_blocks&lt;float [32][32], 2&gt;&amp;, hls::stream_of_blocks&lt;float [28][28][20], 2&gt;&amp;)" Caller-DebugLoc="File conv.cc Line 8 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="conv.cc:43:0" msg_body="Inlining function 'ReLU(float)' into 'convolution_layer2(hls::stream_of_blocks&lt;float [14][14][20], 2&gt;&amp;, hls::stream_of_blocks&lt;float [10][10][50], 2&gt;&amp;)'">
+        <args Callee="ReLU(float)" Callee-DebugLoc="File activation.cc Line 5 Column 0" Caller="convolution_layer2(hls::stream_of_blocks&lt;float [14][14][20], 2&gt;&amp;, hls::stream_of_blocks&lt;float [10][10][50], 2&gt;&amp;)" Caller-DebugLoc="File conv.cc Line 43 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="activation.cc:9:0" msg_body="Inlining function 'std::exp(float)' into 'softmax(float*, float*)'">
+        <args Callee="std::exp(float)" Callee-DebugLoc="File {C:/Appl/Xilinx/Vitis_HLS/2023.1/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\cmath} Line 223 Column 0" Caller="softmax(float*, float*)" Caller-DebugLoc="File activation.cc Line 9 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="dense.cc:5:0" msg_body="Inlining function 'softmax(float*, float*)' into 'dense_layer(hls::stream_of_blocks&lt;float [1250], 2&gt;&amp;, float*)'">
+        <args Callee="softmax(float*, float*)" Callee-DebugLoc="File activation.cc Line 9 Column 0" Caller="dense_layer(hls::stream_of_blocks&lt;float [1250], 2&gt;&amp;, float*)" Caller-DebugLoc="File dense.cc Line 5 Column 0"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

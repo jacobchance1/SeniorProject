@@ -1,0 +1,167 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "1 8",
+    "file": "cnn.cc",
+    "fileloc": 6,
+    "instructions": 15,
+    "name": "cnn",
+    "total_instructions": 51398
+  },
+  "1": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "cnn.cc",
+    "fileloc": 53,
+    "instructions": 23,
+    "loads": {
+      "L": 1
+    },
+    "name": "write_to_stream",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 23
+  },
+  "10": {
+    "basicblocks": 105,
+    "calls": "4 4 4 4 4 4 4 4 4 4",
+    "file": "conv.cc",
+    "fileloc": 3,
+    "instructions": 2331,
+    "loads": {
+      "G": 260,
+      "L": 250
+    },
+    "name": "convolution_layer1",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 2411
+  },
+  "11": {
+    "basicblocks": 24,
+    "calls": "",
+    "file": "flatten.cc",
+    "fileloc": 3,
+    "instructions": 117,
+    "loads": {
+      "L": 5
+    },
+    "name": "flatten_layer",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 117
+  },
+  "2": {
+    "basicblocks": 1575,
+    "calls": "",
+    "file": "pool.cc",
+    "fileloc": 5,
+    "instructions": 6451,
+    "loads": {
+      "L": 1260
+    },
+    "name": "max_pool1_layer",
+    "stores": {
+      "L": 140
+    },
+    "total_instructions": 6451
+  },
+  "3": {
+    "basicblocks": 155,
+    "calls": "",
+    "file": "pool.cc",
+    "fileloc": 37,
+    "instructions": 791,
+    "loads": {
+      "L": 90
+    },
+    "name": "max_pool2_layer",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 791
+  },
+  "4": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "activation.cc",
+    "fileloc": 5,
+    "instructions": 8,
+    "name": "ReLU",
+    "total_instructions": 8
+  },
+  "5": {
+    "basicblocks": 23,
+    "calls": "",
+    "file": "activation.cc",
+    "fileloc": 9,
+    "instructions": 66,
+    "loads": {
+      "L": 4
+    },
+    "name": "softmax",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 70
+  },
+  "6": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "utils.cc",
+    "fileloc": 3,
+    "instructions": 28,
+    "loads": {
+      "L": 1
+    },
+    "name": "normalization_and_padding",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 28
+  },
+  "7": {
+    "basicblocks": 355,
+    "calls": "4 4 4 4 4 4 4 4 4 4",
+    "file": "conv.cc",
+    "fileloc": 41,
+    "instructions": 41171,
+    "loads": {
+      "G": 5010,
+      "L": 10010
+    },
+    "name": "convolution_layer2",
+    "stores": {
+      "L": 5010
+    },
+    "total_instructions": 41251
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "6 10 2 7 3 11 9",
+    "file": "cnn.cc",
+    "fileloc": 31,
+    "instructions": 52,
+    "name": "forward",
+    "total_instructions": 51360
+  },
+  "9": {
+    "basicblocks": 24,
+    "calls": "5",
+    "file": "dense.cc",
+    "fileloc": 4,
+    "instructions": 189,
+    "loads": {
+      "G": 10,
+      "L": 10
+    },
+    "name": "dense_layer",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 259
+  }
+}

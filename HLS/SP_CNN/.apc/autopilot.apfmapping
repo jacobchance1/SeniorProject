@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="activation.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\activation.cc"/>
+    <originFiles name="activation.h" path="C:\Users\jchance7\Documents\SeniorProject\HLS\activation.h"/>
+    <originFiles name="cnn.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\cnn.cc"/>
+    <originFiles name="cnn.h" path="C:\Users\jchance7\Documents\SeniorProject\HLS\cnn.h"/>
+    <originFiles name="conv.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\conv.cc"/>
+    <originFiles name="conv.h" path="C:\Users\jchance7\Documents\SeniorProject\HLS\conv.h"/>
+    <originFiles name="conv_weights.cc" path="C:\Users\jchance7\Documents\SeniorProject\Headers\conv_weights.cc"/>
+    <originFiles name="definitions.h" path="C:\Users\jchance7\Documents\SeniorProject\Headers\definitions.h"/>
+    <originFiles name="dense.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\dense.cc"/>
+    <originFiles name="dense.h" path="C:\Users\jchance7\Documents\SeniorProject\HLS\dense.h"/>
+    <originFiles name="dense_weights.cc" path="C:\Users\jchance7\Documents\SeniorProject\Headers\dense_weights.cc"/>
+    <originFiles name="flatten.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\flatten.cc"/>
+    <originFiles name="flatten.h" path="C:\Users\jchance7\Documents\SeniorProject\HLS\flatten.h"/>
+    <originFiles name="pool.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\pool.cc"/>
+    <originFiles name="pool.h" path="C:\Users\jchance7\Documents\SeniorProject\HLS\pool.h"/>
+    <originFiles name="utils.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\utils.cc"/>
+    <originFiles name="utils.h" path="C:\Users\jchance7\Documents\SeniorProject\HLS\utils.h"/>
+  </source>
+  <testbench>
+    <originFiles name="in.dat" path="C:\Users\jchance7\Documents\SeniorProject\Data\in.dat"/>
+    <originFiles name="in2.dat" path="C:\Users\jchance7\Documents\SeniorProject\Data\in2.dat"/>
+    <originFiles name="main.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\main.cc"/>
+    <originFiles name="out.dat" path="C:\Users\jchance7\Documents\SeniorProject\Data\out.dat"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

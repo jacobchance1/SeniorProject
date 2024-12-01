@@ -1,0 +1,10 @@
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:305:5: warning: Added loop label VITIS_LOOP_8_1:   [xilinx-label-all-loops]
+    for (int i =0; i< 28; ++i){
+    ^~~
+    VITIS_LOOP_8_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:305:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:306:9: warning: Added loop label VITIS_LOOP_9_2:   [xilinx-label-all-loops]
+        for (int j=0;j< 28; ++j){
+        ^~~
+        VITIS_LOOP_9_2: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:306:9: note: FIX-IT applied suggested code changes

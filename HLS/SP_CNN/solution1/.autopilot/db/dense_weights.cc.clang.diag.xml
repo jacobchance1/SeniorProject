@@ -1,0 +1,23 @@
+<dict>
+  <key>main-file</key>
+  <string>../Headers/dense_weights.cc</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../Headers/dense_weights.cc</string>
+      <key>line</key>
+      <integer>5</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>#pragma once in main file</string>
+      <key>ID</key>
+      <integer>953</integer>
+      <key>WarningOption</key>
+      <string>pragma-once-outside-header</string>
+    </dict>
+  </array>
+</dict>

@@ -1,0 +1,40 @@
+---
+MainSourceFile:  'C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/.autopilot/db/activation.pp.0.cc'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_13_1:  '
+    FileOffset:      13
+    FilePath:        activation.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\activation.pp.0.cc'
+        Offset:          114788
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_13_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_18_2:  '
+    FileOffset:      18
+    FilePath:        activation.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\activation.pp.0.cc'
+        Offset:          114877
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_18_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_25_3:  '
+    FileOffset:      25
+    FilePath:        activation.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\activation.pp.0.cc'
+        Offset:          114988
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_25_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_4:  '
+    FileOffset:      32
+    FilePath:        activation.cc
+    Replacements:    
+      - FilePath:        'C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\activation.pp.0.cc'
+        Offset:          115085
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_4: '
+...

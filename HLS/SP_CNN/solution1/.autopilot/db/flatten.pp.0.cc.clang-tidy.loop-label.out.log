@@ -1,0 +1,15 @@
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc:312:13: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+            for (int r = 0; r<(10 / 2);++r){
+            ^~~
+            VITIS_LOOP_14_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc:312:13: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc:314:2: warning: Added loop label VITIS_LOOP_16_2:   [xilinx-label-all-loops]
+ for (int c=0;c<(10 / 2);++c){
+ ^~~
+ VITIS_LOOP_16_2: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc:314:2: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc:315:21: warning: Added loop label VITIS_LOOP_17_3:   [xilinx-label-all-loops]
+                    for (int f =0;f<50;++f){
+                    ^~~
+                    VITIS_LOOP_17_3: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\flatten.pp.0.cc:315:21: note: FIX-IT applied suggested code changes

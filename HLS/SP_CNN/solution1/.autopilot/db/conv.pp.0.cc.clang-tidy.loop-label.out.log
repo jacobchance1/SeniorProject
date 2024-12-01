@@ -1,0 +1,30 @@
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3740:3: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+  for (int fo = 0; fo < 50; ++fo) {
+  ^~~
+  VITIS_LOOP_49_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3740:3: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3742:2: warning: Added loop label VITIS_LOOP_51_2:   [xilinx-label-all-loops]
+ for (int ro = 0; ro < 10; ++ro) {
+ ^~~
+ VITIS_LOOP_51_2: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3742:2: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3743:5: warning: Added loop label VITIS_LOOP_52_3:   [xilinx-label-all-loops]
+    for (int co = 0; co < 10; ++co) {
+    ^~~
+    VITIS_LOOP_52_3: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3743:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3745:2: warning: Added loop label VITIS_LOOP_54_4:   [xilinx-label-all-loops]
+ for (int kr = 0; kr < 5; ++kr) {
+ ^~~
+ VITIS_LOOP_54_4: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3745:2: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3746:7: warning: Added loop label VITIS_LOOP_55_5:   [xilinx-label-all-loops]
+      for (int kc = 0; kc < 5; ++kc) {
+      ^~~
+      VITIS_LOOP_55_5: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3746:7: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3747:8: warning: Added loop label VITIS_LOOP_56_6:   [xilinx-label-all-loops]
+       for (int fi = 0; fi < 20; ++fi) {
+       ^~~
+       VITIS_LOOP_56_6: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\conv.pp.0.cc:3747:8: note: FIX-IT applied suggested code changes

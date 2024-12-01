@@ -1,0 +1,135 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [10][10][50]>::read_lock(hls::stream_of_blocks<float [10][10][50], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [5][5][50]>::write_lock(hls::stream_of_blocks<float [5][5][50], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [5][5][50]>::~write_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [10][10][50]>::~read_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [10][10][50]>::operator float (&) [10][10][50]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [5][5][50]>::operator float (&) [5][5][50]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_buf<float [28][28][20]>::stream_buf(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [28][28]>::write_lock(hls::stream_of_blocks<float [28][28], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [32][32]>::operator float (&) [32][32]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [28][28][20]>::write_lock(hls::stream_of_blocks<float [28][28][20], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [28][28]>::~read_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [28][28]>::~write_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [28][28][20]>::operator float (&) [28][28][20]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [28][28]>::operator float (&) [28][28]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_buf<float [1250]>::stream_buf(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_buf<float [14][14][20]>::stream_buf(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_buf<float [32][32]>::stream_buf(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_buf<float [10][10][50]>::stream_buf(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [28][28]>::read_lock(hls::stream_of_blocks<float [28][28], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [28][28][20]>::~write_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_buf<float [28][28]>::stream_buf(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_buf<float [5][5][50]>::stream_buf(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [32][32]>::~write_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [32][32]>::read_lock(hls::stream_of_blocks<float [32][32], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [32][32]>::~read_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [28][28]>::operator float (&) [28][28]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [32][32]>::operator float (&) [32][32]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [32][32]>::write_lock(hls::stream_of_blocks<float [32][32], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [14][14][20]>::~read_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [14][14][20]>::operator float (&) [14][14][20]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [10][10][50]>::~write_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [28][28][20]>::read_lock(hls::stream_of_blocks<float [28][28][20], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [14][14][20]>::read_lock(hls::stream_of_blocks<float [14][14][20], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [14][14][20]>::~write_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [10][10][50]>::write_lock(hls::stream_of_blocks<float [10][10][50], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [14][14][20]>::write_lock(hls::stream_of_blocks<float [14][14][20], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [14][14][20]>::operator float (&) [14][14][20]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [28][28][20]>::~read_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [10][10][50]>::operator float (&) [10][10][50]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [28][28][20]>::operator float (&) [28][28][20]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [1250]>::write_lock(hls::stream_of_blocks<float [1250], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [5][5][50]>::operator float (&) [5][5][50]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [1250]>::operator float (&) [1250]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::write_lock<float [1250]>::~write_lock()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [5][5][50]>::~read_lock()" off="0" region="0" recursive="0"/>
+<pragma file="cnn.cc" line="23" pragmaType="dataflow" parentfunction="cnn" disable_start_propagation="0"/>
+<pragma file="cnn.cc" line="11" pragmaType="interface" parentfunction="cnn" mode="m_axi" port="image" bundle="INPUT" offset="slave" name="" depth="784" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="cnn.cc" line="12" pragmaType="interface" parentfunction="cnn" mode="m_axi" port="prediction" bundle="OUTPUT" offset="slave" name="" depth="10" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="cnn.cc" line="13" pragmaType="interface" parentfunction="cnn" mode="s_axilite" port="" bundle="" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="cnn.cc" line="58" pragmaType="pipeline" parentfunction="write_to_stream" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="cnn.cc" line="41" pragmaType="dataflow" parentfunction="forward" disable_start_propagation="0"/>
+<pragma file="conv.cc" line="16" pragmaType="unroll" parentfunction="convolution_layer1" factor="10" skip_exit_check="0"/>
+<pragma file="conv.cc" line="21" pragmaType="pipeline" parentfunction="convolution_layer1" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="conv.cc" line="24" pragmaType="pipeline" parentfunction="convolution_layer1" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="pool.cc" line="46" pragmaType="unroll" parentfunction="max_pool2_layer" factor="10" skip_exit_check="0"/>
+<pragma file="pool.cc" line="50" pragmaType="pipeline" parentfunction="max_pool2_layer" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="dense.cc" line="10" pragmaType="unroll" parentfunction="dense_layer" factor="-1" skip_exit_check="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [1250]>::operator float (&) [1250]()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [1250]>::~read_lock()" off="0" region="0" recursive="0"/>
+<pragma file="flatten.cc" line="15" pragmaType="unroll" parentfunction="flatten_layer" factor="-1" skip_exit_check="0"/>
+<pragma file="flatten.cc" line="18" pragmaType="pipeline" parentfunction="flatten_layer" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="pool.cc" line="13" pragmaType="unroll" parentfunction="max_pool1_layer" factor="10" skip_exit_check="0"/>
+<pragma file="pool.cc" line="15" pragmaType="pipeline" parentfunction="max_pool1_layer" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="pool.cc" line="17" pragmaType="pipeline" parentfunction="max_pool1_layer" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="pool.cc" line="21" pragmaType="pipeline" parentfunction="max_pool1_layer" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [1250]>::read_lock(hls::stream_of_blocks<float [1250], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_acquire" off="0" region="0" recursive="0"/>
+<pragma file="conv.cc" line="50" pragmaType="unroll" parentfunction="convolution_layer2" factor="10" skip_exit_check="0"/>
+<pragma file="conv.cc" line="53" pragmaType="pipeline" parentfunction="convolution_layer2" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="conv.cc" line="57" pragmaType="pipeline" parentfunction="convolution_layer2" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read_release" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::read_lock<float [5][5][50]>::read_lock(hls::stream_of_blocks<float [5][5][50], 2>&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_of_blocks<float [1250], 2>::stream_of_blocks(int, char*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_of_blocks<float [32][32], 2>::stream_of_blocks(int, char*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_of_blocks<float [14][14][20], 2>::stream_of_blocks(int, char*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_of_blocks<float [28][28][20], 2>::stream_of_blocks(int, char*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_of_blocks<float [10][10][50], 2>::stream_of_blocks(int, char*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_of_blocks<float [28][28], 2>::stream_of_blocks(int, char*)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream_of_blocks<float [5][5][50], 2>::stream_of_blocks(int, char*)" off="0" region="0" recursive="0"/>
+</pragmas>

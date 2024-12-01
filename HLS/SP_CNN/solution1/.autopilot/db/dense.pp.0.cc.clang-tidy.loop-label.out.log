@@ -1,0 +1,10 @@
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense.pp.0.cc:3695:5: warning: Added loop label VITIS_LOOP_9_1:   [xilinx-label-all-loops]
+    for (int i=0; i<10; ++i){
+    ^~~
+    VITIS_LOOP_9_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense.pp.0.cc:3695:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense.pp.0.cc:3698:9: warning: Added loop label VITIS_LOOP_12_2:   [xilinx-label-all-loops]
+        for (int j=0;j<(50 * (10 / 2) * (10 / 2));++j){
+        ^~~
+        VITIS_LOOP_12_2: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense.pp.0.cc:3698:9: note: FIX-IT applied suggested code changes

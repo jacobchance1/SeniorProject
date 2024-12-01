@@ -1,0 +1,44 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "cnn",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "cnn"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "cnn",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "cnn"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/csynth.tcl",
+    "sourceLine": 34,
+    "success": true
+  }
+]

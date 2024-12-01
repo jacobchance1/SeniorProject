@@ -1,0 +1,140 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "6 2",
+    "file": "cnn.cc",
+    "fileloc": 6,
+    "instructions": 19,
+    "name": "cnn",
+    "total_instructions": 35445
+  },
+  "1": {
+    "basicblocks": 34,
+    "calls": "",
+    "file": "pool.cc",
+    "fileloc": 5,
+    "instructions": 2373,
+    "loads": {
+      "L": 560
+    },
+    "name": "max_pool1_layer",
+    "stores": {
+      "L": 140
+    },
+    "total_instructions": 2373
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "9 4 1 3 7 5 8",
+    "file": "cnn.cc",
+    "fileloc": 31,
+    "instructions": 34,
+    "name": "forward",
+    "total_instructions": 35399
+  },
+  "3": {
+    "basicblocks": 64,
+    "calls": "",
+    "file": "conv.cc",
+    "fileloc": 41,
+    "instructions": 30353,
+    "loads": {
+      "G": 5010,
+      "L": 5010
+    },
+    "name": "convolution_layer2",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 30353
+  },
+  "4": {
+    "basicblocks": 64,
+    "calls": "",
+    "file": "conv.cc",
+    "fileloc": 3,
+    "instructions": 1843,
+    "loads": {
+      "G": 260,
+      "L": 250
+    },
+    "name": "convolution_layer1",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 1843
+  },
+  "5": {
+    "basicblocks": 31,
+    "calls": "",
+    "file": "flatten.cc",
+    "fileloc": 3,
+    "instructions": 130,
+    "loads": {
+      "L": 5
+    },
+    "name": "flatten_layer",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 130
+  },
+  "6": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "cnn.cc",
+    "fileloc": 53,
+    "instructions": 27,
+    "name": "write_to_stream",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 27
+  },
+  "7": {
+    "basicblocks": 64,
+    "calls": "",
+    "file": "pool.cc",
+    "fileloc": 37,
+    "instructions": 393,
+    "loads": {
+      "L": 40
+    },
+    "name": "max_pool2_layer",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 393
+  },
+  "8": {
+    "basicblocks": 46,
+    "calls": "",
+    "file": "dense.cc",
+    "fileloc": 4,
+    "instructions": 245,
+    "loads": {
+      "G": 10,
+      "L": 13
+    },
+    "name": "dense_layer",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 245
+  },
+  "9": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "utils.cc",
+    "fileloc": 3,
+    "instructions": 28,
+    "loads": {
+      "L": 1
+    },
+    "name": "normalization_and_padding",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 28
+  }
+}
