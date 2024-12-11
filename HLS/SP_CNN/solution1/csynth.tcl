@@ -30,5 +30,6 @@ add_files -tb ../Data/out.dat -cflags "-Wno-unknown-pragmas"
 open_solution "solution1" -flow_target vivado
 set_part {xczu3eg-sbva484-2-i}
 create_clock -period 10 -name default
+config_cosim -tool xsim
 source "./SP_CNN/solution1/directives.tcl"
 csynth_design

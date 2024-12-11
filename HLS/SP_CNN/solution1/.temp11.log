@@ -1,0 +1,5 @@
+LINE 1About to make arraymade arrayAbout to make labelsabout to run the codeEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNNEntering CNN
+Total predictions: 15
+Correct predictions percentage: 100.00 %
+Average latency: 28.333333 (ms)
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 0

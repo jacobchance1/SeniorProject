@@ -125,7 +125,7 @@
                                 								
                                 <option id="gnu.c.link.option.libs.1308162543" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
                                 								
-                                <option id="gnu.c.link.option.ldflags.25117394" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="" valueType="string"/>
+                                <option id="gnu.c.link.option.ldflags.25117394" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="-Wl,--stack,0xFFFFFFFF" valueType="string"/>
                                 							
                             </tool>
                             							
@@ -139,7 +139,7 @@
                                 								
                                 <option id="gnu.cpp.link.option.libs.28294308" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
                                 								
-                                <option id="gnu.cpp.link.option.flags.666378282" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="" valueType="string"/>
+                                <option id="gnu.cpp.link.option.flags.666378282" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-Wl,--stack,0xFFFFFFFF" valueType="string"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.49925365" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
                                     									
@@ -191,11 +191,9 @@
                         					
                     </fileInfo>
                     					
-                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.2060598283.2074483990" name="out.dat" rcbsApplicability="disable" resourcePath="testbench/out.dat" toolsToInvoke=""/>
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.2060598283.1462097805" name="out.dat" rcbsApplicability="disable" resourcePath="testbench/out.dat" toolsToInvoke=""/>
                     					
                     <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.2060598283.210503632" name="in2.dat" rcbsApplicability="disable" resourcePath="testbench/in2.dat" toolsToInvoke=""/>
-                    					
-                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.2060598283.1339450237" name="in.dat" rcbsApplicability="disable" resourcePath="testbench/in.dat" toolsToInvoke=""/>
                     					
                     <sourceEntries>
                         						
@@ -313,7 +311,7 @@
                                 								
                                 <option id="gnu.c.link.option.libs.1084882521" name="Libraries (-l)" superClass="gnu.c.link.option.libs"/>
                                 								
-                                <option id="gnu.c.link.option.ldflags.1288497147" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="" valueType="string"/>
+                                <option id="gnu.c.link.option.ldflags.1288497147" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="-Wl,--stack,0xFFFFFFFF" valueType="string"/>
                                 							
                             </tool>
                             							
@@ -327,7 +325,7 @@
                                 								
                                 <option id="gnu.cpp.link.option.libs.2052553506" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs"/>
                                 								
-                                <option id="gnu.cpp.link.option.flags.2116380772" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="" valueType="string"/>
+                                <option id="gnu.cpp.link.option.flags.2116380772" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-Wl,--stack,0xFFFFFFFF" valueType="string"/>
                                 								
                                 <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.809066508" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
                                     									
@@ -379,11 +377,9 @@
                         					
                     </fileInfo>
                     					
-                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1756037747.1205066406" name="out.dat" rcbsApplicability="disable" resourcePath="testbench/out.dat" toolsToInvoke=""/>
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1756037747.810227257" name="out.dat" rcbsApplicability="disable" resourcePath="testbench/out.dat" toolsToInvoke=""/>
                     					
                     <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1756037747.1675311837" name="in2.dat" rcbsApplicability="disable" resourcePath="testbench/in2.dat" toolsToInvoke=""/>
-                    					
-                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1756037747.1390398390" name="in.dat" rcbsApplicability="disable" resourcePath="testbench/in.dat" toolsToInvoke=""/>
                     					
                     <sourceEntries>
                         						

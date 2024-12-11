@@ -9,7 +9,7 @@
       <key>filename</key>
       <string>C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/csynth.tcl</string>
       <key>line</key>
-      <integer>34</integer>
+      <integer>35</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -105,7 +105,7 @@
       <key>filename</key>
       <string>cnn.cc</string>
       <key>line</key>
-      <integer>41</integer>
+      <integer>76</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -121,7 +121,23 @@
       <key>filename</key>
       <string>cnn.cc</string>
       <key>line</key>
-      <integer>58</integer>
+      <integer>90</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=forward_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>cnn.cc</string>
+      <key>line</key>
+      <integer>106</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>

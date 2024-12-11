@@ -73,7 +73,7 @@
       <key>filename</key>
       <string>pool.cc</string>
       <key>line</key>
-      <integer>46</integer>
+      <integer>48</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -89,7 +89,7 @@
       <key>filename</key>
       <string>pool.cc</string>
       <key>line</key>
-      <integer>50</integer>
+      <integer>52</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -98,6 +98,22 @@
       <integer>5471</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>pool.cc</string>
+      <key>line</key>
+      <integer>40</integer>
+      <key>column</key>
+      <integer>69</integer>
+      <key>message</key>
+      <string>unused parameter &apos;in&apos;</string>
+      <key>ID</key>
+      <integer>5292</integer>
+      <key>WarningOption</key>
+      <string>unused-parameter</string>
     </dict>
   </array>
 </dict>

@@ -1,0 +1,14 @@
+   Build using "C:/Appl/Xilinx/Vitis_HLS/2023.1/tps/win64/msys64/mingw64/bin/g++"
+   Compiling apatb_cnn.cpp
+   Compiling pool.cc_pre.cc.tb.cc
+   Compiling cnn.cc_pre.cc.tb.cc
+   Compiling flatten.cc_pre.cc.tb.cc
+   Compiling utils.cc_pre.cc.tb.cc
+   Compiling conv_weights.cc_pre.cc.tb.cc
+   Compiling main.cc_pre.cc.tb.cc
+   Compiling conv.cc_pre.cc.tb.cc
+   Compiling dense.cc_pre.cc.tb.cc
+   Compiling dense_weights.cc_pre.cc.tb.cc
+   Compiling activation.cc_pre.cc.tb.cc
+   Compiling apatb_cnn_ir.ll
+   Generating cosim.tv.exe

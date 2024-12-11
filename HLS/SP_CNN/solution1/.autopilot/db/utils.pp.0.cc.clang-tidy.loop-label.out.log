@@ -1,10 +1,35 @@
-C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:305:5: warning: Added loop label VITIS_LOOP_8_1:   [xilinx-label-all-loops]
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:1339:7: warning: Added loop label VITIS_LOOP_1213_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1213_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:1339:7: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:2313:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:2313:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:2327:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:2327:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:2341:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:2341:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:3940:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:3940:7: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:5861:5: warning: Added loop label VITIS_LOOP_8_1:   [xilinx-label-all-loops]
     for (int i =0; i< 28; ++i){
     ^~~
     VITIS_LOOP_8_1: 
-C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:305:5: note: FIX-IT applied suggested code changes
-C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:306:9: warning: Added loop label VITIS_LOOP_9_2:   [xilinx-label-all-loops]
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:5861:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:5862:9: warning: Added loop label VITIS_LOOP_9_2:   [xilinx-label-all-loops]
         for (int j=0;j< 28; ++j){
         ^~~
         VITIS_LOOP_9_2: 
-C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:306:9: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\utils.pp.0.cc:5862:9: note: FIX-IT applied suggested code changes

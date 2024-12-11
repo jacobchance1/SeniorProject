@@ -8,7 +8,8 @@
 #include "../Headers/definitions.h"
 #include "hls_streamofblocks.h"
 
-void cnn(float image[IMG_ROWS][IMG_COLS], float (prediciton)[DIGITS]);
+void cnn(fixed_t (&image)[IMG_ROWS][IMG_COLS], fixed_t (&prediciton)[DIGITS]);
 void forward(hls::stream_of_blocks<raw> &image,
-		float prediction[DIGITS] );
-void write_to_stream(hls::stream_of_blocks<raw>&img_stream, float image[IMG_ROWS][IMG_COLS]);
+		fixed_t prediction[DIGITS] );
+void write_to_stream(hls::stream_of_blocks<raw>&img_stream, fixed_t image[IMG_ROWS][IMG_COLS]);
+

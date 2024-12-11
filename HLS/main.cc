@@ -6,14 +6,14 @@
 #include <time.h>
 
 
-#define N 15
+#define N 10
 
 
 
 
 
 int
-read_images (const char * file, float images [N][IMG_ROWS][IMG_COLS])
+read_images (const char * file, fixed_t images [N][IMG_ROWS][IMG_COLS])
 {
   FILE *fp;
   //fclose(fp);
@@ -24,16 +24,18 @@ read_images (const char * file, float images [N][IMG_ROWS][IMG_COLS])
   if (fp == NULL)
 	 printf("null file");
    // return -1;
-
+  float temp_float;
   for (int i = 0; i < N; ++i)
     for (int x = 0; x < IMG_ROWS; ++x)
-      for (int y = 0; y < IMG_COLS; ++y)
-        if(fscanf(fp, "%f", & images[i][x][y]) != 1){
+      for (int y = 0; y < IMG_COLS; ++y){
+        if(fscanf(fp, "%f", & temp_float) != 1){
 
-        	std::cout<< "\n";
-        	std::cout << i << " " << x << " " << y << "\n";
+        	//std::cout<< "\n";
+        	//std::cout << i << " " << x << " " << y << "\n";
           return 1; // Error.
           }
+        images[i][x][y] = static_cast<fixed_t>(temp_float);
+      }
 
   return fclose(fp);
 }
@@ -57,7 +59,7 @@ read_labels(const char * file, int labels[N])
 
 
 int
-get_max_prediction (float prediction [DIGITS])
+get_max_prediction (fixed_t prediction [DIGITS])
 {
   int max_digit = 0;
   for (int i = 0; i < DIGITS; ++i)
@@ -68,7 +70,7 @@ get_max_prediction (float prediction [DIGITS])
   return max_digit;
 }
 
-void print_prediction(float prediction[DIGITS]) {
+void print_prediction(fixed_t prediction[DIGITS]) {
     //std::cout << "PREDICTION: " << get_max_prediction(prediction) << " " << std::endl;
   
 }
@@ -89,7 +91,7 @@ int main()
 
 
 
-  float images[N][IMG_ROWS][IMG_COLS];
+  fixed_t images[N][IMG_ROWS][IMG_COLS];
 
   printf("made array");
 
@@ -102,6 +104,7 @@ int main()
 
   printf("About to make labels");
 
+
   int labels[N];
   if (0 != read_labels("out.dat", labels))
   {
@@ -113,7 +116,7 @@ int main()
 
   double time = 0;
   int correct_predictions = 0;
-  float prediction [DIGITS];
+  fixed_t prediction [DIGITS];
 
   for (int i = 0; i < N; ++i)
   {

@@ -3,5 +3,5 @@
 #include "../Headers/definitions.h"
 #include "hls_streamofblocks.h"
 
-float ReLU(float x);
-void softmax(float FC_output[DIGITS], float (FC_pred)[DIGITS]);
+fixed_t ReLU(fixed_t x);
+void softmax(fixed_t FC_output[DIGITS], fixed_t (FC_pred)[DIGITS]);

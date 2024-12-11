@@ -10,10 +10,13 @@ pool.cc:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ Pragma
 pool.cc:21:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=max_pool1_layer_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE
         ^
-pool.cc:46:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=max_pool2_layer_XLX_SEP_ PragmaOptions=factor=10_XLX_SEP_ [-Wdump-hls-pragmas]
+pool.cc:48:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=max_pool2_layer_XLX_SEP_ PragmaOptions=factor=10_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL factor=10
         ^
-pool.cc:50:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=max_pool2_layer_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+pool.cc:52:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=max_pool2_layer_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE
         ^
-6 warnings generated.
+pool.cc:40:69: warning: unused parameter 'in' [-Wunused-parameter]
+                    hls::stream_of_blocks<pool2> &out_features, int in)
+                                                                    ^
+7 warnings generated.

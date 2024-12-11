@@ -2,7 +2,7 @@
     <includePaths/>
     <libraryPaths/>
     <Simulation argv="">
-        <SimFlow name="csim" ldflags="" csimMode="0" lastCsimMode="0"/>
+        <SimFlow name="csim" ldflags="-Wl,--stack,0xFFFFFFFF" csimMode="0" lastCsimMode="0"/>
     </Simulation>
     <files xmlns="">
         <file name="activation.cc" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>

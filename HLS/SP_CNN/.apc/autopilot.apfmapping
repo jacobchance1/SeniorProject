@@ -20,9 +20,9 @@
     <originFiles name="utils.h" path="C:\Users\jchance7\Documents\SeniorProject\HLS\utils.h"/>
   </source>
   <testbench>
-    <originFiles name="in.dat" path="C:\Users\jchance7\Documents\SeniorProject\Data\in.dat"/>
     <originFiles name="in2.dat" path="C:\Users\jchance7\Documents\SeniorProject\Data\in2.dat"/>
     <originFiles name="main.cc" path="C:\Users\jchance7\Documents\SeniorProject\HLS\main.cc"/>
     <originFiles name="out.dat" path="C:\Users\jchance7\Documents\SeniorProject\Data\out.dat"/>
+    <originFiles name="in.dat" path="C:\Users\jchance7\Documents\SeniorProject\Data\in.dat"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

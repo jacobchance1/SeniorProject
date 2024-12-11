@@ -1,0 +1,12 @@
+---
+MainSourceFile:  'C:/Users/jchance7/Documents/SeniorProject/HLS/SP_CNN/solution1/.autopilot/db/cnn.pp.0.cc'
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '76:9'
+    FilePath:        cnn.cc
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '76:9'
+    FilePath:        cnn.cc
+...

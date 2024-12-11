@@ -1,1 +1,3 @@
-clang-tidy applied 4 of 4 suggested fixes.
+26 errors generated.
+Error while processing C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\activation.pp.0.cc.
+clang-tidy applied 134 of 134 suggested fixes.

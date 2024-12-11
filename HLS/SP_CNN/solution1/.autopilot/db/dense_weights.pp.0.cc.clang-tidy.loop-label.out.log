@@ -1,0 +1,25 @@
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:1343:7: warning: Added loop label VITIS_LOOP_1213_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1213_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:1343:7: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:2317:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:2317:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:2331:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:2331:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:2345:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:2345:5: note: FIX-IT applied suggested code changes
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:3944:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\jchance7\Documents\SeniorProject\HLS\SP_CNN\solution1\.autopilot\db\dense_weights.pp.0.cc:3944:7: note: FIX-IT applied suggested code changes
